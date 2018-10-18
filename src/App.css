@@ -1,1 +1,145 @@
+.todo-content{
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px; 
+  box-sizing: border-box;
+  box-shadow: 0px 0px 30px #000000;
+}
+
+.todo-content h2, .todo-content p{
+  margin: 0;
+  font-family: Gabriola;
+  line-height: 1.2;
+}
+
+.todo-content h2{
+  font-size: 30px;
+  color: green;
+}
+
+.todo-content p{
+  font-size: 20px;
+  color: gray;
+}
+
+label{
+  display: block;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #000000;
+  min-height: 98px;
+  position: relative;
+}
+
+.saveLabel{
+  background:#b3fbf88f;
+  margin: 20px 0;
+  min-height: unset;
+}
+
+form{
+  width: 100%;
+  display: flex;
+}
+
+input[type="text"]{
+  flex:1;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]{
+  margin-left: 20px;
+  padding: 6px 12px;
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.saveLabel input[type="submit"]{
+  background: #4eca4e;
+  color: #ffffff;
+}
+
+input[type="submit"]{
+  background: #028002;
+  color: #ffffff;
+}
+
+.lists-content{
+  margin-top: 40px;
+}
+
+.todo{
+  background:#e8f9d5;
+  margin:20px 0;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-pencil:before {
+    content: "\f040";
+}
+
+.icImg{
+  width:17px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.note{
+  position: absolute;
+  top:5px;
+  right:20px;
+  color: red;
+  /*text-shadow: 2px 2px 2px #000000;*/
+  font-family: Gabriola;
+}
+
+.status{
+  text-align: right;
+}
+
+.new, .done{
+  padding: 6px 10px;
+  background: #ea2718;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #000000;
+  color: #ffffff;
+  line-height: 2;
+  font-family: arial;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.done{
+  background: blue;
+}
+
+.hover{
+  background: #7bea80;
+
+}
+
+.text{
+  max-width: 70%;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px; 
+}
+
 
